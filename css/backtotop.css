@@ -21,7 +21,7 @@
     height: 45px;
     position: absolute;
     border-radius: 50%;
-    background: conic-gradient(var(--primaryblue) 0deg, var(--primaryblue) var(--progress, 0%), lightgray var(--progress, 0%), lightgray 100%);
+    background: conic-gradient(var(--accent-color) 0deg, var(--accent-color) var(--progress, 0%), var(--secondaryblue) var(--progress, 0%), var(--secondaryblue) 100%);
     display: flex;
     justify-content: center;
     align-items: center;
