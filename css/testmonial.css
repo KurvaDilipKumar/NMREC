@@ -13,13 +13,13 @@
 .section-heading {
     text-align: center;
     font-size: 2.5rem;
-    color: #2c3e50;
+    /* color: #2c3e50; */
     margin-bottom: 40px;
 }
 
 .testimonial-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(2, 1fr);
     gap: 30px;
     max-width: 1200px;
     margin: 0 auto;
@@ -66,4 +66,8 @@
     .testimonial-container {
         grid-template-columns: 1fr;
     }
+    .testimonial-card:nth-child(n+3) {
+        display: none !important;
+    }
 }
+
